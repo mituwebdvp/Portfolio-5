@@ -1,0 +1,207 @@
+* {
+    padding:0px;
+    margin:0px;
+}
+
+.logo {
+    height:85px;
+    width:85px;
+    border-radius: 50%;
+    border:1px solid red;
+}
+
+.bg_img {
+    background:url(./Images/desktop-wallpaper-web-development.jpg);
+    height:600px;
+    width:100%;
+}
+
+li {
+    list-style: none;
+    margin: 0 20px;
+}
+
+.main_menu li a {
+    text-decoration: none;
+    color:#ccc;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+header {
+    display:flex;
+    justify-content: space-between;
+    background:rgba(35, 26, 26, 0.333);
+    position:sticky;
+    top:0px;
+    align-items: center;
+    padding: 0 10px;
+}
+
+
+.main_menu {
+    display: flex;
+}
+
+
+.list_drop {
+    position:relative;
+}
+
+
+.drop_menu {
+    width:230px;
+    background-color:rgba(100, 148, 237, 0.249); 
+    position:absolute; 
+    display:none;
+    top:33px;
+    line-height: 1.4;
+}
+
+.drop_menu li a {
+    font-size: 20px;
+
+}
+
+
+.list_drop:hover .drop_menu {
+     display:block;
+}
+
+
+li:hover a {
+    color:#fff;
+    
+}
+
+
+.snd_list_drop {
+    position:relative;
+}
+
+.snd_drop_menu {
+    position:absolute;
+    width:250px;
+    background-color: rgba(205, 92, 92, 0.242);
+    display:none;
+    top:30px;
+    line-height: 1.4;
+}
+
+.snd_list_drop:hover .snd_drop_menu {
+    display:block;
+}
+
+.snd_drop_menu li a {
+    font-size: 20px;
+}
+
+.title {
+    color:white;
+    font-size: 100px;
+    font-weight: 600;
+    text-align: center;
+    margin-top:80px;
+    text-shadow: 50px;
+}
+
+.button {
+    text-transform: uppercase;
+    padding:20px;
+    font-size: 20px;
+    text-shadow: 10px;
+    justify-items: center;
+    margin-left:43%;
+    background-color: rgba(156, 203, 14, 0.251);
+    color:#ccc;
+    border-style: double;
+}
+
+.head_line {
+    color:rgb(200, 255, 80);
+    font-size: 50px;
+    font-weight: 300;
+}
+
+.snd_btn {
+    text-transform: uppercase;
+    padding:10px;
+    background-color:rgba(0, 0, 0, 0.553) ;
+    color:#ccc;
+    border-style:groove;
+}
+
+.group_item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-envelope-o {
+    font-size:35px;
+    color:coral;
+}
+
+.top_menu {
+    display:flex;
+    justify-content: space-between;
+    padding:20px;
+    background-color: rgba(78, 159, 60, 0.559);
+    color:black;
+    align-items: center;
+}
+
+.first_item {
+    display:flex;
+    gap:20px;
+}
+
+.contact_item {
+    display: flex;
+    gap:20px;
+}
+
+.satisfaction h2 {
+    font-size: 28px;
+    font-weight: bold;
+    color:navy;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.fa-smile-o {
+    color:deeppink;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.satisfaction p {
+    font-size: 18px;
+    color:gray;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.customer-services {
+    padding:20px 30px;
+    border:1px dotted green;
+}
+
+
+.fa-bars {
+    font-size:40px;
+    margin-left: 30px;
+}
+
+.hidden {
+    display:none;
+}
+
+.ul_menu li {
+    width:200px;
+}
+
+.hide {
+    display: none;
+}
